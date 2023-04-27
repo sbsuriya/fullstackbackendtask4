@@ -1,52 +1,31 @@
 {
-  "name": "mern-banking-client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.10.2",
-    "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "axios": "^0.19.2",
-    "cors": "^2.8.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
-  },
+  "name": "mern_banking_solution",
+  "version": "1.0.0",
+  "description": "Banking solution built using MERN stack.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest --verbose",
-    "eject": "react-scripts eject"
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrinandhini2801/mern_banking_solution.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Shri Nandhini J R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shrinandhini2801/mern_banking_solution/issues"
+  },
+  "homepage": "https://github.com/shrinandhini2801/mern_banking_solution#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "babel-jest": "^24.9.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "jest": "^24.9.0",
-    "react-test-renderer": "^16.13.1"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./src/setupTests.js"
+    "nodemon": "^2.0.4"
   }
 }
